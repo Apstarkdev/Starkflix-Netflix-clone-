@@ -17,7 +17,7 @@ const Search = () => {
           src={searchIcon}
           onClick={toggleDropdown}
           className="icon-search"
-          width={26}
+          width={24}
         />
         <input
           type="text"

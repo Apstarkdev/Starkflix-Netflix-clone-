@@ -8,7 +8,7 @@ const Navbar = (props) => {
       <li className="option">Series</li>
       <li className="option">Películas</li>
       <li className="optionwide">Novedades populares</li>
-      <li className="option">Mi lista</li>
+      <li className="optionlast">Mi lista</li>
       </ul>
     </div>
   )
