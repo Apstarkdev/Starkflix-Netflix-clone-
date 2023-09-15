@@ -11,7 +11,7 @@ const Topbar = (props) => {
     return (
     <div>
       <div className="logo-container">
-        <Image src={logo} className="logo"/>
+        <Image src={logo} alt="" className="logo"/>
         <Navbar/>
         <Search></Search>
         <Tools></Tools>

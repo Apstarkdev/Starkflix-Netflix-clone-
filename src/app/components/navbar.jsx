@@ -4,11 +4,11 @@ const Navbar = (props) => {
   return (
     <div id="option-container">
     <ul className="lista">
-      <li className="optionone">Inicio</li>
+      <li className="optionMenu">Inicio</li>
       <li className="option">Series</li>
       <li className="option">Películas</li>
-      <li className="optionwide">Novedades populares</li>
-      <li className="optionlast">Mi lista</li>
+      <li className="option-wide">Novedades populares</li>
+      <li className="option-last">Mi lista</li>
       </ul>
     </div>
   )

@@ -14,10 +14,10 @@ const Search = () => {
     return (
       <div className={`search-dropdown ${isActive ? "active" : ""}`}>
         <Image
+          alt=""
           src={searchIcon}
           onClick={toggleDropdown}
           className="icon-search"
-          width={24}
         />
         <input
           type="text"
